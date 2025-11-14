@@ -1,18 +1,68 @@
-# React + Vite
+#  Catálogo de Jogos (CRUD)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de um catálogo de jogos pessoal, desenvolvido como um aplicativo web completo no estilo "CRUD" (Create, Read, Update, Delete).
 
-Currently, two official plugins are available:
+### [Clique aqui para ver o site no ar (Deploy Vivo)](https://crud-jogos.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Funcionalidades Principais
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+* **CRUD Completo:** Adicione, edite e exclua jogos da sua lista.
+* **Assistente de API:** Busca títulos de jogos em tempo real usando a API da [RAWG.io](https://rawg.io/) para autocompletar o nome.
+* **Persistência de Dados:** Os jogos são salvos no `localStorage` do navegador, para que sua lista não desapareça ao recarregar a página.
+* **Filtragem e Busca:** A lista de jogos pode ser filtrada por Gênero, Status (Jogando, Zerado, etc.) e buscada por título.
+* **Design Responsivo:** O layout se adapta perfeitamente a telas de desktop e dispositivos móveis.
+* **Feedback Visual:** Notificações "toast" (com `react-toastify`) informam o usuário sobre ações bem-sucedidas (adicionar, editar, excluir).
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este projeto foi construído do zero utilizando as seguintes tecnologias:
+
+* **Front-end:** [React](https://reactjs.org/) (com Hooks e Gerenciamento de Estado)
+* **Build Tool:** [Vite](https://vitejs.dev/)
+* **Estilização:** [Tailwind CSS](https://tailwindcss.com/) (para estilização "utility-first" e design responsivo)
+* **API Externa:** [RAWG.io Video Games Database API](https://rawg.io/apidocs)
+* **Deploy:** [Vercel](https://vercel.com/victor-stavarengos-projects/crud-jogos)
+
+---
+
+## 🖼️ Screenshots
+
+### Layout Desktop
+(Aqui você pode colar uma das screenshots do seu app em tela cheia)
+![Layout Desktop do App](<img width="1363" height="943" alt="image" src="https://github.com/user-attachments/assets/dc1812c9-7b79-461d-ab43-e8269febc714" />
+) 
+
+### Layout Mobile
+(Aqui você pode colar a screenshot do modo celular)
+![Layout Mobile do App](<img width="1363" height="943" alt="Captura de tela 2025-11-14 150042" src="https://github.com/user-attachments/assets/34d568da-bdd2-4680-bac2-10243313002f" />
+)
+
+---
+
+## 🚀 Como Rodar o Projeto Localmente
+
+1.  Clone este repositório:
+    ```bash
+    git clone [https://github.com/VictorStavarengo/crud-jogos.git](https://github.com/VictorStavarengo/crud-jogos.git)
+   
+
+
+2.  Entre na pasta do projeto e instale as dependências:
+    ```bash
+    cd crud-jogos
+    npm install
+    ```
+
+3.  Crie um arquivo `.env.local` na raiz do projeto. Você precisará de uma chave de API gratuita do site [RAWG.io](https://rawg.io/apidocs) e adicione-a ao arquivo:
+    ```
+    VITE_RAWG_API_KEY=sua_chave_secreta_aqui
+    ```
+
+4.  Rode o servidor de desenvolvimento:
+    ```bash
+    npm run dev
+    ```
