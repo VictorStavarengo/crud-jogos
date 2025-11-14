@@ -33,7 +33,8 @@ Este projeto foi construído do zero utilizando as seguintes tecnologias:
 
 ### Layout Desktop
 (Aqui você pode colar uma das screenshots do seu app em tela cheia)
-![Layout Desktop do App](<img width="1363" height="943" alt="image" src="https://github.com/user-attachments/assets/dc1812c9-7b79-461d-ab43-e8269febc714" />
+![Layout Desktop do App](<img width="1919" height="944" alt="Captura de tela 2025-11-14 150026" src="https://github.com/user-attachments/assets/b13ddfd7-4eac-4b49-bd84-8ddda910ff87" />
+
 ) 
 
 ### Layout Mobile
