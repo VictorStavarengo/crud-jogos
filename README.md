@@ -39,7 +39,8 @@ Este projeto foi construído do zero utilizando as seguintes tecnologias:
 
 ### Layout Mobile
 (Aqui você pode colar a screenshot do modo celular)
-![Layout Mobile do App](<img width="1363" height="943" alt="Captura de tela 2025-11-14 150042" src="https://github.com/user-attachments/assets/34d568da-bdd2-4680-bac2-10243313002f" />
+![Layout Mobile do App](<img width="1363" height="943" alt="Captura de tela 2025-11-14 150042" src="https://github.com/user-attachments/assets/d46dcae2-6afc-4785-9ae9-793256917ce5" />
+
 )
 
 ---
